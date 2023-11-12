@@ -20,15 +20,15 @@ body {
 }
 
 .content {
-	--frame: #070b32;
-	--bush: #181b38;
+	--frame: #073232;
+	--bush: #000000;
 	--dot1: radial-gradient(circle at 50% 50%, var(--bush) 0 0.25vmin, #fff0 calc(0.25vmin + 1px) 100%);
 	--dot2: radial-gradient(circle at 50% 50%, var(--bush) 0 0.5vmin, #fff0 calc(0.5vmin + 1px) 100%);
 	--dot3: radial-gradient(circle at 50% 50%, var(--bush) 0 1.15vmin, #fff0 calc(1.15vmin + 1px) 100%);
 	--glass: 337deg;
-	--luz1: hsl(var(--glass) 60% 50% / 60%);
-	--luz2: hsl(var(--glass) 54% 32%);
-	--luz3: hsl(var(--glass) 54% 25%);
+	--luz1: grey;
+	--luz2: grey;
+	--luz3: grey;
 	transition: --glass 3s;
 	width: 80vmin;
 	height: 100vh;
@@ -193,7 +193,7 @@ body {
 }
 
 .air-cooler .side:nth-of-type(1) {
-	border: 1px solid #0002;
+	border: 1px solid blue;
 }
 
 .air-cooler .side:nth-of-type(1):before {
@@ -201,7 +201,7 @@ body {
 	width: calc(100% - 1vmin);
 	height: calc(100% - 1vmin);
 	position: absolute;
-	background: repeating-linear-gradient(180deg, #000, #0a0d29 , #434770cc);
+	background: repeating-linear-gradient(180deg, #5DADE2, #1F618D , #154360);
 	margin: 0.5vmin;
 	background-size: 100% 25%;
 }
@@ -212,7 +212,7 @@ body {
 /*** WINDOWS ***/
 
 span {
-	background: linear-gradient(32deg, #fff0 17%, var(--luz2) 19%), var(--luz1);
+	background: linear-gradient(32deg, #154360 17%, var(--luz2) 19%), var(--luz1);
 	position: absolute;
 	width: 20%;
 	height: 100%;
